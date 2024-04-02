@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../шрифты/Montserrat-Regular.ttf");
+}
+
+/* index */
+.text1 {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.text2 {
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+}
+
+.text3 {
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+}
+
+.text4 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Montserrat-Regular';
+}
+
+
+
+
+.btn.btn-outline-secondary {
+    text-align: center;
+}
+
+.content-with-images {
+    display: flex;
+    width: 100%;
+}
+
+.text-and-images {
+    flex: 1;
+    padding-right: 120px;
+
+}
+
+.custom-hr1 {
+    width: 400px;
+    height: 2px;
+    background-color: #282828;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.images1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.vologda {
+   margin-top: 15px;
+}
+
+.images2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.nomer {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.images3 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.pochta {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.custom-hr2 {
+    width: 400px;
+    height: 2px;
+    background-color: #282828;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.carta {
+    margin-top: 28px;
+}
+
+
+
+
+
+/* РЕГИСТРАЦИЯ */
+.container {
+    margin-top: 1%;
+}
+
+h1 {
+    text-align:center;
+    margin-bottom: 0;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-field {
+    width: 230px;
+    padding: 8px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.btn {
+    background: #f5f5f5;
+    padding: 8px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.alert {
+    margin-top: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.content-with-images {
+    width: 100%;
+}
+
+.text-and-images {
+    flex: 1;
+    padding-right: 120px;
+}
+
+.gitara {
+    margin-top: 5%;
+    float: right;
+}
+
+
+.text-justify {
+    text-align: justify;
+}
+
+
+
+
+
+
+.gitar {
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    padding: 20px;
+}
+
+
+.quantity-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chh {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ВХОД */
+* {
+    box-sizing: border-box;
+    }
+
+    *:focus {
+      outline: none;
+    }
+    body {
+    font-family: Arial;
+    background-color: #3498DB;
+    }
+    .login {
+    margin: 20px auto;
+    width: 300px;
+    }
+    .login-screen {
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px
+    }
+
+    .app-title {
+    text-align: center;
+    }
+
+    .login-form {
+    text-align: center;
+    margin-top: 20px;
+    }
+    .control-group {
+    margin-bottom: 10px;
+    }
+
+    input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+    }
+
+    .btn {
+      border: 2px solid transparent;
+      background: #3498DB;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+
+    .btn:hover {
+      background-color: #2980B9;
+    }
+
+    .login-link {
+      font-size: 12px;
+      color: #444;
+      display: block;
+      margin-top: 12px;
+    }
